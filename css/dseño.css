@@ -1,0 +1,22 @@
+
+.ul{
+    margin-top: 100px;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+
+.navbar{
+    font-family: Showcard Gothic;
+}
+
+.card
+{
+    border-radius: 25px;
+    border: solid, 1px, red;
+}
+
+.card-img-top{
+    border-radius: 25px;
+}
