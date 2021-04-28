@@ -25,32 +25,45 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <img src="img/icono.png" height="50px" width="50px">
-            <a class="navbar-brand" href="#"> &nbsp;  &nbsp;  &nbsp; TALLER EL RAYO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"> &nbsp; &nbsp; &nbsp; TALLER EL RAYO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#">NOSOTROS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                        <a class="nav-link" href="galeria.html">GALERIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria</a>
+                        <a class="nav-link" href="ubicacion.html">UBICACION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Repuestos</a>
+                        <a class="nav-link" href="#">REPUESTOS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Agendar visita</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            FORMULARIOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">AGENDAR VISITA</a></li>
+                            <li><a class="dropdown-item" href="#">REGISTRARSE</a></li>
+                            <li><a class="dropdown-item" href="#">LOGIN</a></li>
+                        </ul>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
         </div>
     </nav>
@@ -111,7 +124,9 @@
             <img src="img/El_rayo.jpg" class="card-img-top" height="400">
             <div class="card-body">
                 <h5 class="card-title">Primer Cliente.</h5>
-                <i><p class="card-text">A este cliente se le Realizo un cambio de parabrisas.</p></i>
+                <i>
+                    <p class="card-text">A este cliente se le Realizo un cambio de parabrisas.</p>
+                </i>
                 <a class="card-link" href="#">Detalles</a>
             </div>
         </div>
@@ -119,7 +134,9 @@
             <img src="img/tow-mate.jpg" class="card-img-top" height="400">
             <div class="card-body">
                 <h5 class="card-title">Segundo Cliente.</h5>
-                <i><p class="card-text">A este cliente se le realizo un cambio de carroceria.</p></i>
+                <i>
+                    <p class="card-text">A este cliente se le realizo un cambio de carroceria.</p>
+                </i>
                 <a class="card-link" href="#">Detalles</a>
             </div>
         </div>
@@ -127,7 +144,9 @@
             <img src="img/hudson.jpg" class="card-img-top" height="400">
             <div class="card-body">
                 <h5 class="card-title">Tercer Cliente.</h5>
-                <i><p class="card-text">A este Cliente se le hizo un cambio de chasis.</p></i>
+                <i>
+                    <p class="card-text">A este Cliente se le hizo un cambio de chasis.</p>
+                </i>
                 <a class="card-link" href="#">Detalles</a>
             </div>
         </div>
