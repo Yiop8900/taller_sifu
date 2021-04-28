@@ -25,6 +25,7 @@ body
     border-radius: 25px;
 }
 
+
 .diseño_texto_imagenes
 {
     font-family: Showcard Gothic;
@@ -33,6 +34,7 @@ body
 
 .titulo
 {
+    margin-top: 3%;
     color:white;
     text-align: center;
     font-family: Showcard Gothic;
@@ -57,3 +59,4 @@ body
     margin-left: 20%;
     margin-right: 20%;
 }
+
