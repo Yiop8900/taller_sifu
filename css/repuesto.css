@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(purple,orange);
+}
+
+h1{
+    font-family: Showcard Gothic;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    font-family: Showcard Gothic;
+}
+
+.card-group{
+    margin-top: 5%;
+}
+
+.card{
+    margin-left: 2%;
+    margin-right: 2%;
+}

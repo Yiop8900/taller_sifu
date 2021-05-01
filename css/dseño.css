@@ -1,4 +1,6 @@
-
+body{
+    background: linear-gradient(purple,orange);
+}
 .ul{
     margin-top: 100px;
 }
@@ -46,3 +48,9 @@
     color:white;
     margin-left: 36%;
 }
+
+#tarjeta {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
