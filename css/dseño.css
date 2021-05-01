@@ -1,0 +1,91 @@
+body
+{
+    background: linear-gradient(purple, orange);
+}
+
+.ul{
+    margin-top: 100px;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+
+.navbar{
+    font-family: Showcard Gothic;
+}
+
+.card
+{
+    border-radius: 25px;
+    border: solid, 1px, red;
+}
+
+.card-img-top{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+
+.diseño_texto_imagenes
+{
+    font-family: Showcard Gothic;
+    font-style: oblique;
+}
+
+.titulo
+{
+    margin-top: 3%;
+    color:white;
+    text-align: center;
+    font-family: Showcard Gothic;
+}
+
+.direccion
+{
+    color:white;
+    text-align: center;
+    font-family: Showcard Gothic;
+}
+
+.horarios
+{
+    color:white;
+    margin-left: 36%;
+}
+
+#carta
+{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Horario{
+    color: black;
+}
+
+#sally
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+h1{
+    font-family: Showcard Gothic;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+#tarjeta
+{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+
+#img_repuesto
+{
+    border-radius: 30px;
+}
