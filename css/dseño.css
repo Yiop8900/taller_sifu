@@ -1,3 +1,7 @@
+body
+{
+    background: linear-gradient(purple, orange);
+}
 
 .ul{
     margin-top: 100px;
@@ -18,7 +22,8 @@
 }
 
 .card-img-top{
-    border-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 
@@ -65,4 +70,22 @@
     margin-left: 30%;
     margin-right: 30%;
 }
+h1{
+    font-family: Showcard Gothic;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
 
+#tarjeta
+{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+
+#img_repuesto
+{
+    border-radius: 30px;
+}
