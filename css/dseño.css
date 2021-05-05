@@ -88,16 +88,19 @@ h1{
 #usuario
 {
     width: 50%;
+    font-family: Showcard Gothic;
 }
 
 #correo
 {
     width: 50%;
+    font-family: Showcard Gothic;
 }
 
 #contrasenia
 {
     width: 50%;
+    font-family: Showcard Gothic;
 }
 
 .mb-3
@@ -108,6 +111,11 @@ h1{
 #botones
 {
     margin-left: 30%;
+}
+
+#btn
+{
+    font-family: Showcard Gothic;
 }
 
 .marhen
