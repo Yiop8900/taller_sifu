@@ -65,7 +65,11 @@ body
     color: black;
 }
 
-
+#sally
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
 h1{
     font-family: Showcard Gothic;
     margin-top: 3%;
