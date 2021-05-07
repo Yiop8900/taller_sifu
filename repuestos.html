@@ -91,11 +91,34 @@
                 </form>
             </div>
         </div>
-    </nav>>
+    </nav>
+
 
     <h1>
         repuestos de vehiculos
     </h1>
+    <center>
+        <input type="button" class="btn btn-primary" value="Valor del Dolar" onclick="recuperaDolar()">
+        <br>
+        <div id="valor_dolar"></div>
+        <script>
+            function recuperaDolar() {
+                fetch("https://mindicador.cl/api/dolar")
+                    .then(function (response) {
+                        // status 200 "OK"
+                        if (response.status != 200) {
+                            alert("no pudo conectar con el servidor");
+                            return;
+                        }
+                        response.json().then(function (data) {
+                            console.log(data);
+                            var dolar = data.serie[0].valor;
+                            document.getElementById('valor_dolar').innerHTML = dolar;
+                        })
+                    })
+            }
+        </script>
+    </center>
 
     <div class="card-group" id="tarjeta_repuesto">
         <div class="card" id="tarjeta">
