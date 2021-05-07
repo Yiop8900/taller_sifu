@@ -158,7 +158,8 @@
                     <dt>Material 6:</dt>
                     <dd><input type="text"></dd>
                 </dl>
-
+                <legend>Adjuntar Imagen</legend>
+                <input type="file" name="Adjuntar Imagen" id="" accept=".pdf,.jpg,.png" multiple>
             </section>
             <p>
 
@@ -173,24 +174,6 @@
 
             </p>
 
-
-        </form>
-
-            <section id="info">
-                <legend>Adjuntar imagenes</legend>
-                <form name="formulario" method="post" action="/send.php" enctype="multipart/form-data">
-                    <!-- ¡No olvides el enctype! -->
-                    <!-- Campo de selección de archivo -->
-                    <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
-                </form>
-            </section>
-            </main>
-            <footer>
-                <div class="contenedor">
-                    <p></p>
-                </div>
-            </footer>
-
             <section id="botones">
                 <p>
 
@@ -200,9 +183,10 @@
 
                 </p>
             </section>
-
+            <br>
         </form>
 
+        <script src="js/publicar.js"></script>
     </body>
 </body>
 
